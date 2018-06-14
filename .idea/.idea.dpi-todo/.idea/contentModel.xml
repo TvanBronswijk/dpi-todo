@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Tobi\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_dpi-todo.-1150657181.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Tobi\Repositories\dpi-todo" t="IncludeFlat">
+      <e p="dpi-todo.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ToDo.Aggregator" t="IncludeRecursive">
+        <e p="Aggregator.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ToDo.Aggregator.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ToDo.Aggregator.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ToDo.Client" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientApp" t="Include">
+          <e p=".gitignore" t="Include" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="public" t="Include">
+            <e p="favicon.ico" t="Include" />
+            <e p="index.html" t="Include" />
+            <e p="manifest.json" t="Include" />
+          </e>
+          <e p="README.md" t="Include" />
+          <e p="src" t="Include">
+            <e p="App.js" t="Include" />
+            <e p="App.test.js" t="Include" />
+            <e p="components" t="Include">
+              <e p="Calendar.js" t="Include" />
+              <e p="Home.js" t="Include" />
+              <e p="Layout.js" t="Include" />
+              <e p="modules" t="Include">
+                <e p="UserPicker.js" t="Include" />
+              </e>
+              <e p="NavMenu.css" t="Include" />
+              <e p="NavMenu.js" t="Include" />
+              <e p="Notes.js" t="Include" />
+              <e p="ToDo.js" t="Include" />
+            </e>
+            <e p="index.css" t="Include" />
+            <e p="index.js" t="Include" />
+            <e p="registerServiceWorker.js" t="Include" />
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="MessageController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="me.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ToDo.Client.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="ToDo.Client.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ToDo.Core" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="models" t="Include">
+          <e p="Calendar.cs" t="Include" />
+          <e p="Message.cs" t="Include" />
+          <e p="Note.cs" t="Include" />
+          <e p="Todo.cs" t="Include" />
+          <e p="USer.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="ToDo.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ToDo.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ToDo.Logger" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Logger.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ToDo.Logger.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ToDo.Logger.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ToDo.Messaging" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MessageHandler.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="ToDo.Messaging.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ToDo.Messaging.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
