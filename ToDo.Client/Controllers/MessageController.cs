@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -13,36 +15,23 @@ namespace ToDo.Client.Controllers
     [ApiController]
     public class MessageController : Controller
     {
+        
         [Route("{username}/todos")]
         [HttpGet]
-        public HttpResponseMessage GetTodo(string username) => Get<Todo>("todo", username);
+        public IActionResult GetTodo(string username) => Get<Todo>("todo", username);
         
         [Route("{username}/Calendars")]
         [HttpGet]
-        public HttpResponseMessage GetCalendar(string username) => Get<Calendar>("calendar", username);
+        public IActionResult GetCalendar(string username) => Get<Calendar>("calendar", username);
         
         [Route("{username}/notes")]
         [HttpGet]
-        public HttpResponseMessage GetNote(string username) => Get<Note>("note", username);
+        public IActionResult GetNote(string username) => Get<Note>("note", username);
 
-        private HttpResponseMessage Get<T>(string queue, string username)
+        private IActionResult Get<T>(string queue, string username)
         where T : Message
-        {
-            HttpResponseMessage result = new HttpResponseMessage(HttpStatusCode.OK);
-            var stream = new MemoryStream();
-                
-                MessageHandler.Recieve<T>("todo-app." + username + "." + queue, (model, ea) =>
-                {
-                    var body = ea.Body;
-                    var payload = MessageHandler.Deserialize<Message>(body);
-                    using (var writer = new StreamWriter(stream))
-                    {
-                        writer.WriteLine(payload.Content);
-                    }
-                });
-            result.Content = new StreamContent(stream);
-            result.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
-            return result;
+        {  
+            return new ObjectResult(NoDb.messages.Where(mes => mes.Owner.Name == username));
         }
 
         [Route("todos")]

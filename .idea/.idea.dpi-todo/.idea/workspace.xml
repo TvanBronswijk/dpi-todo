@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c7cbc0-b408-4974-99ab-ae4fd7b51cd1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.dpi-todo/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.dpi-todo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.dpi-todo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.dpi-todo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.dpi-todo/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Aggregator/Aggregator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Notes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/ToDo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/modules/UserPicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Client/Controllers/MessageController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Client/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Core/models/Calendar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Core/models/Message.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Core/models/Note.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Core/models/Todo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Core/models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDo.Logger/Logger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Api/Controllers/ValuesController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Api/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Api/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Api/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Api/ToDo.Api.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Api/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Api/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Core/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Core/ToDo.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.Core/ToDo.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Logger/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Logger/Program.fs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.Logger/ToDo.Logger.fsproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dpi-todo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/dpi-todo.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDo.Client/NoDb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dpi-todo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dpi-todo/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dpi-todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dpi-todo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDo.Client/Controllers/MessageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.Client/Controllers/MessageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDo.Client/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.Client/Startup.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,18 +18,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MessageController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MessageController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ToDo.Client/Controllers/MessageController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="400">
+              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
               <folding>
-                <marker date="1528976068769" expanded="true" signature="6:207" ph="..." />
-                <marker date="1528976068769" expanded="true" signature="242:2186" ph="{...}" />
-                <marker date="1528976068769" expanded="true" signature="340:2184" ph="{...}" />
-                <marker date="1528976068769" expanded="true" signature="919:1691" ph="{...}" />
-                <marker date="1528976068769" expanded="true" signature="1171:1493" ph="{...}" />
-                <marker date="1528976068769" expanded="true" signature="1372:1475" ph="{...}" />
+                <marker date="1528981210821" expanded="true" signature="6:260" ph="..." />
+                <marker date="1528981210821" expanded="true" signature="295:1567" ph="{...}" />
+                <marker date="1528981210821" expanded="true" signature="393:1565" ph="{...}" />
+                <marker date="1528981210821" expanded="true" signature="957:1072" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ToDo.Client/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+              <folding>
+                <marker date="1528980892784" expanded="false" signature="6:342" ph="..." />
+                <marker date="1528980892784" expanded="true" signature="365:2400" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="392:2398" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="451:514" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="737:1074" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="974:1062" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="1262:2392" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="1309:1386" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="1403:1513" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="1658:1824" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="1857:2088" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="1967:2074" ph="{...}" />
+                <marker date="1528980892784" expanded="true" signature="2199:2380" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ToDo.Client/Controllers/UserController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <marker date="1528965055538" expanded="false" signature="6:89" ph="..." />
+                <marker date="1528965055538" expanded="true" signature="124:681" ph="{...}" />
+                <marker date="1528965055538" expanded="true" signature="216:679" ph="{...}" />
+                <marker date="1528965055538" expanded="true" signature="278:673" ph="{...}" />
+                <marker date="1528965055538" expanded="true" signature="352:661" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageHandler.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ToDo.Messaging/MessageHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding>
+                <marker date="1528973645194" expanded="false" signature="6:216" ph="..." />
+                <marker date="1528973645194" expanded="true" signature="242:2533" ph="{...}" />
+                <marker date="1528973645194" expanded="true" signature="276:2531" ph="{...}" />
+                <marker date="1528973645194" expanded="true" signature="481:1154" ph="{...}" />
+                <marker date="1528973645194" expanded="true" signature="1285:1816" ph="{...}" />
+                <marker date="1528973645194" expanded="true" signature="1868:2128" ph="{...}" />
+                <marker date="1528973645194" expanded="true" signature="1907:1964" ph="{...}" />
+                <marker date="1528973645194" expanded="true" signature="2209:2525" ph="{...}" />
+                <marker date="1528973645194" expanded="true" signature="2249:2312" ph="{...}" />
+                <marker date="1528973645194" expanded="true" signature="2409:2515" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Notes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ToDo.Client/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1528884266910" expanded="false" signature="6:255" ph="..." />
+                <marker date="1528884266910" expanded="true" signature="278:605" ph="{...}" />
+                <marker date="1528884266910" expanded="true" signature="305:603" ph="{...}" />
+                <marker date="1528884266910" expanded="true" signature="358:432" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,6 +124,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ToDo.Messaging/MessageHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDo.Client/NoDb.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDo.Aggregator/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDo.Logger/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDo.Core/models/User.cs" root0="FORCE_HIGHLIGHTING" />
@@ -113,6 +170,8 @@
         <option value="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Home.js" />
         <option value="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Calendar.js" />
         <option value="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/ToDo.js" />
+        <option value="$PROJECT_DIR$/ToDo.Client/NoDb.cs" />
+        <option value="$PROJECT_DIR$/ToDo.Client/Startup.cs" />
         <option value="$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Notes.js" />
         <option value="$PROJECT_DIR$/ToDo.Client/Controllers/MessageController.cs" />
       </list>
@@ -148,6 +207,50 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="dpi-todo (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="dpi-todo (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ToDo.Client" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="dpi-todo (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ToDo.Client" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="dpi-todo (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ToDo.Client" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="public" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="dpi-todo (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ToDo.Client" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="dpi-todo (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ToDo.Client" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="components" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="dpi-todo (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ToDo.Client" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="dpi-todo (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ToDo.Messaging" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -244,11 +347,12 @@
       <workItem from="1528957806174" duration="4916000" />
       <workItem from="1528962838769" duration="12010000" />
       <workItem from="1528975502275" duration="872000" />
+      <workItem from="1528979976432" duration="2178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25052000" />
+    <option name="totallyTimeSpent" value="27230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,36 +372,37 @@
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.328877" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.328877" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.328877" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26799485" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.328877" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.328877" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.328877" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2622108" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Unit Tests" order="10" />
       <window_info anchor="bottom" id="REST Client" order="11" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -306,12 +411,11 @@
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.328877" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,15 +427,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ToDo.Client/Controllers/MessageController.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <marker date="1528981210821" expanded="true" signature="6:260" ph="..." />
+            <marker date="1528981210821" expanded="true" signature="295:1567" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="393:1565" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="957:1072" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDo.Client/Controllers/MessageController.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding>
-            <marker date="1528976068769" expanded="true" signature="6:207" ph="..." />
-            <marker date="1528976068769" expanded="true" signature="242:2186" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="340:2184" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="919:1691" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="1171:1493" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="1372:1475" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="6:260" ph="..." />
+            <marker date="1528981210821" expanded="true" signature="295:1567" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="393:1565" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="957:1072" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -341,12 +456,10 @@
         <state>
           <caret column="31" selection-start-column="31" selection-end-column="31" />
           <folding>
-            <marker date="1528976068769" expanded="true" signature="6:207" ph="..." />
-            <marker date="1528976068769" expanded="true" signature="242:2186" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="340:2184" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="919:1691" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="1171:1493" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="1372:1475" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="6:260" ph="..." />
+            <marker date="1528981210821" expanded="true" signature="295:1567" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="393:1565" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="957:1072" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -433,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ToDo.Client/Controllers/UserController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ToDo.Core/models/Message.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -499,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Notes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -513,24 +612,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ToDo.Messaging/MessageHandler.cs">
+    <entry file="file://$PROJECT_DIR$/ToDo.Client/NoDb.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="112">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding>
+            <marker date="1528980875820" expanded="true" signature="6:57" ph="..." />
+            <marker date="1528980875820" expanded="true" signature="80:193" ph="{...}" />
+            <marker date="1528980875820" expanded="true" signature="111:191" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDo.Client/ClientApp/src/components/Notes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDo.Client/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1528884266910" expanded="false" signature="6:255" ph="..." />
+            <marker date="1528884266910" expanded="true" signature="278:605" ph="{...}" />
+            <marker date="1528884266910" expanded="true" signature="305:603" ph="{...}" />
+            <marker date="1528884266910" expanded="true" signature="358:432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDo.Client/Controllers/UserController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <marker date="1528965055538" expanded="false" signature="6:89" ph="..." />
+            <marker date="1528965055538" expanded="true" signature="124:681" ph="{...}" />
+            <marker date="1528965055538" expanded="true" signature="216:679" ph="{...}" />
+            <marker date="1528965055538" expanded="true" signature="278:673" ph="{...}" />
+            <marker date="1528965055538" expanded="true" signature="352:661" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ToDo.Client/Controllers/MessageController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="400">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
           <folding>
-            <marker date="1528976068769" expanded="true" signature="6:207" ph="..." />
-            <marker date="1528976068769" expanded="true" signature="242:2186" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="340:2184" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="919:1691" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="1171:1493" ph="{...}" />
-            <marker date="1528976068769" expanded="true" signature="1372:1475" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="6:260" ph="..." />
+            <marker date="1528981210821" expanded="true" signature="295:1567" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="393:1565" ph="{...}" />
+            <marker date="1528981210821" expanded="true" signature="957:1072" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDo.Client/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <folding>
+            <marker date="1528980892784" expanded="false" signature="6:342" ph="..." />
+            <marker date="1528980892784" expanded="true" signature="365:2400" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="392:2398" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="451:514" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="737:1074" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="974:1062" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="1262:2392" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="1309:1386" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="1403:1513" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="1658:1824" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="1857:2088" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="1967:2074" ph="{...}" />
+            <marker date="1528980892784" expanded="true" signature="2199:2380" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDo.Messaging/MessageHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <marker date="1528973645194" expanded="false" signature="6:216" ph="..." />
+            <marker date="1528973645194" expanded="true" signature="242:2533" ph="{...}" />
+            <marker date="1528973645194" expanded="true" signature="276:2531" ph="{...}" />
+            <marker date="1528973645194" expanded="true" signature="481:1154" ph="{...}" />
+            <marker date="1528973645194" expanded="true" signature="1285:1816" ph="{...}" />
+            <marker date="1528973645194" expanded="true" signature="1868:2128" ph="{...}" />
+            <marker date="1528973645194" expanded="true" signature="1907:1964" ph="{...}" />
+            <marker date="1528973645194" expanded="true" signature="2209:2525" ph="{...}" />
+            <marker date="1528973645194" expanded="true" signature="2249:2312" ph="{...}" />
+            <marker date="1528973645194" expanded="true" signature="2409:2515" ph="{...}" />
           </folding>
         </state>
       </provider>

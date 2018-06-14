@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ToDo.Core.models;
+using ToDo.Messaging;
 
 namespace ToDo.Client
 {
@@ -61,6 +63,13 @@ namespace ToDo.Client
                 {
                     spa.UseReactDevelopmentServer(npmScript: "start");
                 }
+            });
+            
+            MessageHandler.Recieve<Message>("todo-app." + "Tobi" + "." + "note", (model, ea) =>
+            {
+                var body = ea.Body;
+                var payload = MessageHandler.Deserialize<Message>(body);
+                NoDb.messages.Add(payload);
             });
         }
     }

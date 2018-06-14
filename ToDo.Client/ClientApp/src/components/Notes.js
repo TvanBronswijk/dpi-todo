@@ -9,7 +9,8 @@ export class Notes extends Component {
         this.state = {
             users: [],
             ready: false,
-            selectedUser: null
+            selectedUser: null,
+            notes: []
         }
     }
 
@@ -37,7 +38,7 @@ export class Notes extends Component {
         if (this.state.selectedUser == null) {
             return;
         }
-        fetch(`/api/messages/${this.state.selectedUser.name}/todos`)
+        fetch(`/api/messages/${this.state.selectedUser.name}/notes`)
             .then((result) => {
                 return result.json();
             })
@@ -54,7 +55,7 @@ export class Notes extends Component {
                     <label>As</label>
                     <UserPicker onChange={this.onChange.bind(this)} users={this.state.users}/>
                     {
-                        notes ? notes.map(note => <div>{note.Content}</div>) : false
+                        notes ? notes.map(note => <div>{note.content}</div>) : false
                     }
                 </div>
                 : "loading..."
